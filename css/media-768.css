@@ -1,0 +1,148 @@
+@media (max-width: 875px) {
+  .header__container {
+    height: 66px;
+  }
+
+  .header__logo {
+    width: 153px;
+    margin-left: 10px;
+  }
+
+  .menu-close {
+    margin-bottom: 75px;
+  }
+
+  .hero-content {
+    padding: 163px 0 158px 39px;
+    max-width: 840px;
+  }
+
+  .hero-content__heading {
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 15px;
+  }
+
+  .hero-content__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 60px;
+    max-width: 588px;
+  }
+
+  .about__text {
+    margin-bottom: 59px;
+  }
+
+  .about-content__left {
+    width: 100%;
+    min-height: 650px;
+  }
+
+  .about-left__inner {
+    padding: 35px 38px 33px 40px;
+  }
+
+  .about-left__text {
+    max-width: 366px;
+    margin-right: 0;
+  }
+
+  .about-right__item:first-child {
+    margin-top: 23px;
+    margin-bottom: 31px;
+    background-position: left 39px top 66px;
+  }
+
+  .about-right__item {
+    padding: 33px 44px 36px 169px;
+    background-size: 114px 99px;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    background-position: left 39px top 65px;
+  }
+
+  .about {
+    padding-top: 129px;
+    padding-bottom: 51px;
+  }
+
+  .operate {
+    padding-bottom: 42px;
+  }
+
+  .operate_heading {
+    margin-bottom: 50px;
+  }
+
+  .operate__list {
+    justify-content: space-between;
+    margin-bottom: 42px;
+  }
+
+  .operate__content {
+    flex-direction: column-reverse;
+  }
+
+  .operate-right__img {
+    min-height: 0;
+    max-height: 284px;
+    margin-bottom: 35px;
+  }
+
+  .operate-right,
+  .operate-left {
+    width: 100%;
+  }
+
+  .operate-left__text {
+    max-width: 100%;
+    margin-bottom: 22px;
+  }
+
+  .questions {
+    padding-bottom: 94px;
+  }
+
+  .questions__title {
+    margin-right: 46px;
+    max-width: 570px;
+  }
+
+  .questions__wrapper {
+    padding: 31px 0;
+  }
+
+  .questions__heading {
+    margin-bottom: 29px;
+  }
+
+  .footer__logo {
+    margin-bottom: 13px;
+  }
+
+  .footer__title {
+    font-size: 48px;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer-right {
+    width: 81%;
+  }
+
+  .form__btn {
+    padding: 19px 36px;
+    margin-bottom: 48px;
+  }
+
+  .footer__icon {
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,288 @@
+@media (max-width: 1770px) {
+  .about-content__left {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .about-content__right {
+    max-width: 100%;
+  }
+
+  .footer__text {
+    display: none;
+  }
+
+  .about-left__inner {
+    padding: 50px 48px 49px 50px;
+  }
+
+  .about-right__item {
+    background-position: left 50px top 41px;
+  }
+
+  .about-right__item:first-child {
+    background-position: left 50px top 41px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .about__heading {
+    margin-top: 0;
+  }
+
+  .about-content {
+    padding-bottom: 0;
+  }
+
+  .body {
+    max-width: 1170px;
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .burger {
+    width: 30px;
+    display: flex;
+    position: relative;
+    height: 23px;
+  }
+
+  .burger__line {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--black-color);
+  }
+
+  .burger__line:first-child {
+    top: 0;
+    left: 0;
+  }
+
+  .burger__line:nth-child(2) {
+    top: 43%;
+    left: 0;
+  }
+
+  .burger__line:last-child {
+    bottom: 0;
+    left: 0;
+  }
+
+  .header__logo {
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  .hero__container {
+    min-height: 666px;
+  }
+
+  .hero-content {
+    padding: 155px 0 161px 76px;
+    max-width: 879px;
+  }
+
+  .hero-content__heading {
+    font-size: 60px;
+    line-height: 76px;
+    margin-bottom: 10px;
+  }
+
+  .hero-content__text {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 57px;
+    max-width: 660px;
+  }
+
+  .nav {
+    width: 420px;
+    height: 768px;
+    position: absolute;
+    left: -1000vw;
+    padding: 46px;
+    top: 0;
+    z-index: 100;
+    background-color: var(--white-color);
+    transition: left 0.3s ease-in-out;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav__link {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .nav__item {
+    margin-right: 0;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-bottom: 60px;
+  }
+
+  .menu-close {
+    position: relative;
+    display: block;
+    width: 28px;
+    height: 30px;
+    margin-bottom: 92px;
+  }
+
+  .menu-close::before,
+  .menu-close::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--black-color);
+  }
+
+  .menu-close::before {
+    transform: rotate(45deg);
+  }
+
+  .menu-close::after {
+    transform: rotate(-45deg);
+  }
+
+  .nav.burger-active {
+    left: 0;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .about {
+    padding-top: 129px;
+    padding-bottom: 81px;
+  }
+
+  .about__heading {
+    margin-bottom: 11px;
+  }
+
+  .about__text {
+    margin-bottom: 62px;
+  }
+
+  .about-left__text {
+    max-width: 454px;
+    margin-right: 0;
+  }
+
+  .about-content__left {
+    width: 100%;
+    min-height: 639px;
+  }
+
+  .about-left__inner {
+    width: 100%;
+  }
+
+  .about-right__item:first-child {
+    margin-top: 23px;
+    margin-bottom: 31px;
+    background-position: left 76px top 64px;
+  }
+
+  .about-right__item {
+    background-position: left 76px top 64px;
+    padding: 64px 136px 64px 316px;
+  }
+
+  .operate__item:not(:last-child) {
+    margin-right: 85px;
+  }
+
+  .operate-left {
+    width: 55%;
+  }
+
+  .operate-left__text {
+    max-width: 437px;
+  }
+
+  .operate__list {
+    margin-bottom: 49px;
+  }
+
+  .operate-right__img {
+    min-height: 688px;
+  }
+
+  .questions {
+    padding-top: 40px;
+    padding-bottom: 89px;
+  }
+
+  .questions__heading {
+    margin-bottom: 36px;
+  }
+
+  .questions__title {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 756px;
+  }
+
+  .questions__wrapper {
+    padding: 35px 0;
+  }
+
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer__form {
+    max-width: 545px;
+  }
+
+  .footer-right {
+    display: block;
+    width: 59%;
+  }
+
+  .footer__wrapper {
+    min-width: 100%;
+  }
+
+  .footer__container {
+    justify-content: space-between;
+  }
+
+  .form__btn {
+    padding: 19px 39px;
+    margin-bottom: 10px;
+  }
+
+  .footer__logo {
+    margin-bottom: 24px;
+  }
+
+  .footer__title {
+    margin-bottom: 27px;
+    font-size: 49px;
+  }
+
+  .form__input {
+    padding-left: 28px;
+    margin-bottom: 25px;
+  }
+
+  .form__area {
+    padding-left: 28px;
+    padding-top: 23px;
+    margin-bottom: 31px;
+  }
+
+  .footer__list {
+    margin-bottom: 98px;
+  }
+}
