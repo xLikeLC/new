@@ -117,7 +117,6 @@ button:hover {
 
 .card {
   width: calc(33% - 20px);
-  /* width: 500px; */
   background: #222;
   text-align: center;
   border-radius: 6px;
@@ -595,6 +594,11 @@ footer span a:hover {
     height: 350px;
     width: 350px;
   }
+
+  .home-icon::before {
+    left: 552px;
+    top: 290px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -680,6 +684,11 @@ footer span a:hover {
     width: 100%;
     margin-bottom: 35px;
   }
+
+  .home-icon::before {
+    content: "";
+    left: 473px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -702,6 +711,11 @@ footer span a:hover {
   .serv-content .card {
     width: 100%;
   }
+  .home-icon::before {
+    content: "";
+    left: 345px;
+    top: 305px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -714,7 +728,7 @@ footer span a:hover {
   }
 
   h3 {
-      font-size: 18px;
+    font-size: 15px;
   }
 
   form .fields {
@@ -733,6 +747,14 @@ footer span a:hover {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+}
+
+@media (max-width: 391px) {
+  .home-icon::before {
+    content: "";
+    left: 195px;
+    top: 350px;
   }
 }
 
