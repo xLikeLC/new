@@ -1,34 +1,14 @@
-// function send form
-
-jQuery(document).ready(function () {
-  $(".phone").mask("+373 (99) 999-999");
-
-  jQuery(".send-form").click(function () {
-    var form = jQuery(this).closest("form");
-
-    if (form.valid()) {
-      form.css("opacity", ".5");
-      var actUrl = form.attr("action");
-
-      jQuery.ajax({
-        url: actUrl,
-        type: "post",
-        dataType: "html",
-        data: form.serialize(),
-        success: function (data) {
-          form.html(data);
-          form.css("opacity", "1");
-          form.find(".status").html("Form send successful! Thank You!");
-        },
-        error: function () {
-          form.find(".status").html("Server error");
-        },
-      });
-    }
-  });
-});
-
 $(document).ready(function () {
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "username",
+    Password: "password",
+    To: "them@website.com",
+    From: "you@isp.com",
+    Subject: "This is the subject",
+    Body: "And this is the body",
+  }).then((message) => alert(message));
+
   const toTop = document.querySelector(".scroll-up-btn");
 
   window.addEventListener("scroll", () => {
